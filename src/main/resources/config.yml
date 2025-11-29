@@ -1,0 +1,3 @@
+# config.yml - you can update manually, but you can also use commands.
+home-limit: 3  # default number of homes all players can set
+max-homes: 8   # hard cap enforced by plugin (wouldn't recommend changing this)

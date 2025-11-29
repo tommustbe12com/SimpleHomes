@@ -4,3 +4,17 @@ main: com.tommustbe12.simpleHomes.SimpleHomes
 api-version: '1.20'
 authors: [ TomMustBe12 ]
 website: https://tommustbe12.com/
+commands:
+  sethome:
+    description: Open GUI to set/update your homes.
+    usage: /sethome
+  home:
+    description: Open GUI to teleport to your homes.
+    usage: /home
+  sethomelimit:
+    description: Set the global home limit for all players (ops)
+    usage: /sethomelimit <0-8>
+    permission: simplehomes.sethomelimit
+permissions:
+  simplehomes.sethomelimit:
+    default: op
